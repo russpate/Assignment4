@@ -5,7 +5,7 @@
 .container{
   margin:0 auto;
   width:80%;
-  padding-top:1%;
+  padding-top:7px;
 }
 body{
   font-family: 'Open Sans', sans-serif;
@@ -44,7 +44,7 @@ body{
 .social .fa-twitter,
 .social .fa-youtube
 {
-  padding: 1.9% 2.25%;
+  padding: 14px 16px;
   font-size: 2em;
   box-shadow: 0px 4px 0px 0px rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.5);
@@ -83,7 +83,7 @@ nav.headerNav{
   margin:0 auto;
   position:relative;
   text-align:center;
-  margin:3% 0 2% 0;
+  margin:20px 0;
 }
 /*nav.headerNav li{
   display:inline;
@@ -148,15 +148,15 @@ section.slider{
   box-shadow: 0px 0px 50px 0px black;
 }
 .logoOverlay img{
-  width: 40%;
+  width: 39.5%;
   position: absolute;
-  left: 5%;
-  top: 10%;
+  left: 3%;
+  top: 17%;
   z-index:1000;
 }
 .slides{
   width:100%;
-  height:350px;
+  height:356px;
   box-sizing:border-box;
   border: 10px solid;
   overflow: hidden;
@@ -182,27 +182,27 @@ section.slider{
 }
 .sliderControls span{
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 1% 1% 5% 1%;
+  width: 15px;
+  height: 15px;
+  margin: 16px 5px 24px 10px;
   border-radius: 100%;
   background: #ffffff;
   transition:.2s all;
 }
 .sliderControls span:hover {
     background: red;
-    box-shadow: inset 0px 0px 0px 4px white;
+    box-shadow: inset 0px 0px 0px 5px white;
     transform:scale(1.1);
 }
 .sliderControls span:first-child {
     background: red;
-    box-shadow: inset 0px 0px 0px 4px white;
+    box-shadow: inset 0px 0px 0px 5px white;
 }
 .recentPosts{
   display:block;
   width:100%;
   width: 100%;
-  height: 300px;
+  height: 350px;
   box-sizing: border-box;
 }
 .post{
@@ -217,7 +217,7 @@ section.slider{
     margin: 0 5px;
 }
 .postContent {
-    padding: 20px;
+    padding: 20px 30px;
     position: relative;
     color:#464646;
 }
