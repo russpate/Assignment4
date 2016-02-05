@@ -93,7 +93,7 @@ nav.headerNav div{
   width: 24.64%;
   background-color: red;
   padding: 1% 0;
-  border-bottom: 5px solid gray;
+  box-shadow: 0px 4px 0px 0px rgba(255,255,255,0.5);
 }
 nav.headerNav div a{
   background:red;
@@ -107,7 +107,10 @@ section.slider{
   position:relative;
 }
 .logoOverlay img{
-  width:20%;
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
 }
 .slides{
   width:100%;
@@ -117,5 +120,5 @@ section.slider{
 }
 .slides img{
   display:block;
-  zoom:100%;
+  zoom:85%;
 }
