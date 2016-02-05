@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  clear:both;
 }
 .container{
   margin:0 auto;
@@ -273,9 +274,7 @@ span.link {
 }
 
 
-.skaterGrid *{
-  border:1px solid red;
-}
+
 .skaterGrid{
   height:500px;
   width:100%;
@@ -290,16 +289,32 @@ span.link {
   display:inline-block;
   height:249px;
   width:100%;
+  box-sizing:border-box;
 }
 .leftRowWrap{
   display:block;
+  box-sizing:border-box;
+  height:inherit;
 }
 .left50{
   display:inline-block;
   width:49%;
+  height:inherit;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.skaterGrid img{
+  height:inherit;
 }
 .right25{
   height:inherit;
   display:inline-block;
   width:24%;
+  box-sizing:border-box;
+  vertical-align:top;
+}
+.box{
+  border:10px solid white;
+  height:inherit;
+  overflow:hidden;
 }
