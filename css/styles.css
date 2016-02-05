@@ -204,23 +204,37 @@ section.slider{
   width: 100%;
   height: 350px;
   box-sizing: border-box;
+  margin-bottom:50px;
 }
 .post{
   height:inherit;
   display: inline-block;
   background: white;
-  width: 32.625%;
+  width: 32.731%;
   color: #252525;
   vertical-align:middle;
-}
-.recentPosts .post:nth-child(even) {
-    margin: 0 5px;
+  box-shadow:0px 5px 0px 0px rgba(255,255,255,0.35);
 }
 .postContent {
     padding: 20px 30px;
     position: relative;
     color:#464646;
 }
+.recentPosts .post:nth-child(even) {
+    margin: 0 5px;
+}
+/*.recentPosts{
+  display:flex;
+}
+.post{
+  display: flex;
+  background: white;
+  width: 32.731%;
+  padding:20px;
+}
+.postContent {
+    color:#464646;
+}*/
 .post h1{
   margin:0;
   font-size: 1.5em;
@@ -229,6 +243,7 @@ section.slider{
 }
 .postContent p {
     font-size: .75em;
+    line-height:2em;
 }
 p.meta{
   color:#B9B9B9;
@@ -240,5 +255,51 @@ p.meta{
   text-decoration: none;
   font-size: .9em;
   font-weight: 600;
-  color: red;
+  color: #EE1C25;
+  transition:.2s all;
+}
+.postContent a:hover {
+    color: #CACACA;
+    transform: translate3d(0px, -15%, 3em) scale(1.01);
+  }
+span.link {
+    display: block;
+    width: 100%;
+    padding-top: 3%;
+}
+.Content{
+  width: 100%;
+  display: block;
+}
+
+
+.skaterGrid *{
+  border:1px solid red;
+}
+.skaterGrid{
+  height:500px;
+  width:100%;
+  display:block;
+}
+.left75{
+  height:inherit;
+  display:inline-block;
+  width:74%;
+}
+.leftRow{
+  display:inline-block;
+  height:249px;
+  width:100%;
+}
+.leftRowWrap{
+  display:block;
+}
+.left50{
+  display:inline-block;
+  width:49%;
+}
+.right25{
+  height:inherit;
+  display:inline-block;
+  width:24%;
 }
