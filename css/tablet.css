@@ -1,13 +1,17 @@
-@media (max-width: 959px) {
+@media (max-width: 1265px) {
+  .container{
+    width:90%;
+  }
   .recentPosts{
     height:auto;
   }
   .post{
-    width:49.6%;
+    width:32.731%;
     margin-bottom:10px;
+    vertical-align:top;
   }
   .recentPosts .post:nth-child(even){
-    margin:0;
+    margin:0 0 10px 0;
   }
   .postContent p{
     display:none;
