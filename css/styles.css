@@ -1,3 +1,6 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+  }
 *{
   margin:0;
   padding:0;
@@ -202,15 +205,15 @@ section.slider{
 .recentPosts{
   display:block;
   width: 100%;
-  height: 350px;
+  height: auto;
   box-sizing: border-box;
   margin-bottom:50px;
 }
 .post{
-  height:inherit;
+  height:auto;
   display: inline-block;
   background: white;
-  width: 32.731%;
+  width: 32%;
   color: #252525;
   vertical-align:middle;
   box-shadow:0px 5px 0px 0px rgba(255,255,255,0.35);
@@ -286,24 +289,25 @@ span.link {
 }
 .leftRow{
   display:inline-block;
-  height:249px;
+  height:247.5px;
   width:100%;
   box-sizing:border-box;
+  position:relative;
 }
 .leftRowWrap{
   display:block;
   box-sizing:border-box;
   height:inherit;
 }
-.left50{
+.left50-1, .left50-2{
   display:inline-block;
-  width:49%;
+  width:49.7%;
   height:inherit;
   box-sizing:border-box;
-  overflow:hidden;
 }
-.skaterGrid img{
-  height:inherit;
+.left50-2{
+  position: absolute;
+  right: 0%;
 }
 .right25{
   height:inherit;
@@ -312,8 +316,17 @@ span.link {
   box-sizing:border-box;
   vertical-align:top;
 }
-.box{
+.box-50, .left-box, .right-box{
   border:10px solid white;
   height:inherit;
   overflow:hidden;
+}
+.skater1{
+  background-image: url("img/sk8er-1.png");
+  width:100%;
+  height:auto;
+  background-size:cover;
+}
+.left50-1 .box- img{
+  zom:2;
 }

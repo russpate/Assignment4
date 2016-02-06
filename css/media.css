@@ -1,4 +1,7 @@
 @media (max-width: 959px) {
+  .container{
+    width:95%;
+  }
   .recentPosts{
     height:auto;
   }
