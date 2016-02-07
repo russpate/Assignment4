@@ -21,6 +21,7 @@ body{
   url("../img/bg.jpg");
   background-size:cover;
   color:white;
+  background-attachment:fixed;
 }
 .social ul{
   position:relative;
@@ -215,7 +216,7 @@ section.slider{
   background: white;
   width: 32%;
   color: #252525;
-  vertical-align:middle;
+  vertical-align:top;
   box-shadow:0px 5px 0px 0px rgba(255,255,255,0.35);
 }
 .postContent {
@@ -282,6 +283,15 @@ span.link {
   width:100%;
   display:block;
 }
+.skaterGrid h1 {
+  text-align:center;
+  font-weight: 800;
+  text-transform: uppercase;
+  position:relative;
+  margin:0;
+  font-size: 2em;
+  line-height: 1em;
+}
 .left75{
   height:inherit;
   display:inline-block;
@@ -317,15 +327,47 @@ span.link {
   vertical-align:top;
 }
 .box-50, .left-box, .right-box{
-  border:10px solid white;
+  border:5px solid white;
   height:inherit;
   overflow:hidden;
 }
-.skater1{
-  background-image: url("img/sk8er-1.png");
-  width:100%;
-  height:auto;
+.skater1,
+.skater2,
+.skater3,
+.skater4{
+  height:inherit;
   background-size:cover;
+  background-repeat:no-repeat;
+  transition:.2s all;
+}
+.skater1:hover,
+.skater2:hover,
+.skater3:hover,
+.skater4:hover{
+  background-blend-mode:exclusion;
+  background-color:#865C5E;
+  transform: translate3d(0px, -3%,3em) scale(1.01);
+  box-shadow: 0px 0px 50px rgba(0,0,0,.5);
+}
+.skater1{
+  background-image: url("../img/sk8er-4.png");
+  background-position:100%;
+}
+.skater1 h1, .skater2 h1, .skater3 h1, .skater4 h1{
+  top:45%;
+}
+.skater2{
+  background-image: url("../img/sk8er-3.png");
+  background-position:0%;
+}
+.skater3{
+  background-image: url("../img/sk8er-1.png");
+  background-position: 0;
+  background-size: 110%;
+}
+.skater4{
+  background-image: url("../img/sk8er-2.png");
+  background-position: 75% 0%;
 }
 .left50-1 .box- img{
   zom:2;
