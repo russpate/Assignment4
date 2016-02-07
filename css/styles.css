@@ -15,6 +15,13 @@
 .noContain{
   width:initial !important;
 }
+.row{
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   background:
@@ -64,7 +71,7 @@ body{
   margin-left: 1%;
 }
 .social .fa-circle{
-  border-bottom:;none;
+  border-bottom:;0;
   font-size: 5px;
   vertical-align: middle;
   padding: 1%;
@@ -159,7 +166,6 @@ section.slider{
 .slides img{
   zoom:85%;
   position: absolute;
-  top: 0;
   left: -90px;
   top: -150px;
 }
@@ -256,40 +262,40 @@ span.link {
   width: 100%;
   display: block;
 }
-
+.arrowWrap {
+    position: absolute;
+    left: -12%;
+}
 .arrow {
+  position: relative;
+  width:250px;
   background: red;
-  display: inline-block;
-  height: 55px;
-  margin-left: 20px;
-  margin-top: 55px;
-  position: absolute;
-  width: 100px;
-  transform:rotate(90deg);
-  left:-20px;
+  height:70px;
+  line-height: 70px;
+  margin-bottom:30px;
+  text-align:center;
+  color:#fff;
+  font-size: 2em;
+  font-weight: 600;
 }
-.arrow:before {
-  border-bottom: 35px solid red;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+.arrow:after {
   content: "";
-  height: 0;
-  left: 0;
   position: absolute;
-  top: -35px;
-  width: 0;
+  right: -20px;
+  top: 0;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 20px solid red;
 }
-.arrow h1 {
-    transform: rotate(-90deg);
-    position:relative;
-  }
   /*
   ////Skater Grid////
   */
 .skaterGrid{
-  height:500px;
-  width:100%;
-  display:block;
+  display: block;
+    width: 100%;
+    min-height:500px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
 }
 .skaterGrid h1 {
   text-align:center;
@@ -328,7 +334,7 @@ span.link {
   right: 0%;
 }
 .rightRow{
-  height:inherit;
+  height:500px;
 }
 .right25{
   height:inherit;
@@ -381,7 +387,7 @@ span.link {
   background-position: 75% 0%;
 }
 .left50-1 .box- img{
-  zom:2;
+  zoom:2;
 }
 /*
 ////Deck Grid////
@@ -389,7 +395,7 @@ span.link {
 .deckGrid{
   margin-top:50px;
   background:white;
-  max-height:500px;
+  min-height:300px;
   box-sizing:border-box;
   box-shadow: 0px 5px 0px 0px rgba(255,255,255,0.35);
 }
@@ -411,7 +417,6 @@ span.link {
   position:relative;
   margin-top:50px;
   box-shadow: 0px 5px 0px 0px rgba(255,255,255,0.35);
-  color:blue;
   height:320px;
   color:#464646;
 }
@@ -465,3 +470,4 @@ span.link {
 .contactWrap p {
     font-size: .9em;
     line-height: 2em;
+  }

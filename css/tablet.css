@@ -20,15 +20,20 @@
   .postContent p{
     display:none;
   }
+  .arrowWrap{
+    display:none;
+  }
   .skaterGrid .left75{
     width:100%;
   }
   .skaterGrid .right25{
     width:100%;
-    max-height:247.5px;
   }
   .deckWrap{
     width:18%;
+  }
+  .rightRow{
+    height:250px;
   }
 
 }

@@ -1,11 +1,23 @@
 @media (max-width: 650px) {
   .container{
-    max-width:90%;
+    width:95%;
+  }
+  .social ul{
+    text-align:left;
+  }
+  .social .fa-facebook, .social .fa-rss, .social .fa-twitter, .social .fa-youtube {
+    padding: 12px 15.6px;
   }
   nav.headerNav div{
     width:100%;
     margin-bottom:10px;
     padding:10px;
+  }
+  .slides{
+    height:200px;
+  }
+  .slides img {
+    zoom: 50%;
   }
   .recentPosts{
     height:auto;
@@ -25,9 +37,12 @@
   }
   .skaterGrid .right25{
     width:100%;
-    max-height:247.5px;
   }
   .deckWrap{
-    width:33%;
+    width:32%;
+  }
+  .contactLeft, .contactRight{
+
+    width:100%;
   }
 }
