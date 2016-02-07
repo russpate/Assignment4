@@ -12,6 +12,9 @@
   padding-top:7px;
   padding-bottom:50px;
 }
+.noContain{
+  width:initial !important;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   background:
@@ -330,6 +333,32 @@ span.link {
   display: block;
 }
 
+.arrow {
+  background: red;
+  display: inline-block;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 55px;
+  position: absolute;
+  width: 100px;
+  transform:rotate(90deg);
+  left:-20px;
+}
+.arrow:before {
+  border-bottom: 35px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+.arrow h1 {
+    transform: rotate(-90deg);
+    position:relative;
+  }
 .skaterGrid{
   height:500px;
   width:100%;
@@ -487,6 +516,7 @@ span.link {
   padding: 10px 50px;
   float: right;
   transition:.2s all;
+  margin-top:20px;
 }
 .contactWrap button:hover{
   background-color: #EE1C25;
