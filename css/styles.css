@@ -443,22 +443,60 @@ span.link {
 }
 .contactWrap{
   background:white;
-  height:500px;
   display:block;
   position:relative;
   margin-top:50px;
-  box-sizing:border-box;
   box-shadow: 0px 5px 0px 0px rgba(255,255,255,0.35);
+  color:blue;
+  height:320px;
+  color:#464646;
 }
 .contactLeft{
-  width:60%;
+  width:50%;
   position:absolute;
   left:0;
   height:inherit;
+  padding:35px;
 }
 .contactRight{
-  width:40%;
+  width:50%;
   position:absolute;
   right:0;
   height:inherit;
+  padding:35px;
 }
+.contactRight input, .contactRight textarea{
+  width:100%;
+  border: 1px solid #ABABAB;
+  margin: 5px 0px;
+  box-shadow: inset 3px 3px 0px #D4D1D1;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: gray;
+  outline:none;
+}
+.contactRight textarea{
+  height:auto;
+  resize:none;
+}
+.contactWrap button {
+  border: none;
+  color: white;
+  background-color: #B4292E;
+  padding: 10px 50px;
+  float: right;
+  transition:.2s all;
+}
+.contactWrap button:hover{
+  background-color: #EE1C25;
+  color:#ffffff;
+}
+.contactLeft h3 {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+.contactWrap p {
+    font-size: .9em;
+    line-height: 2em;
