@@ -30,7 +30,8 @@ body{
   rgba(0, 0, 0, 0.45)
 ),
   url("../img/bg.jpg");
-  background-size:cover;
+  background-size:170%;
+  background-position:30% 10%;
   color:white;
   background-attachment:fixed;
 }
@@ -269,7 +270,7 @@ span.link {
 .arrow {
   position: relative;
   width:250px;
-  background: red;
+  background: #B4292E;
   height:70px;
   line-height: 70px;
   margin-bottom:30px;
@@ -285,7 +286,7 @@ span.link {
   top: 0;
   border-top: 35px solid transparent;
   border-bottom: 35px solid transparent;
-  border-left: 20px solid red;
+  border-left: 20px solid #B4292E;
 }
   /*
   ////Skater Grid////
