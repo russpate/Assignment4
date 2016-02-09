@@ -1,0 +1,66 @@
+section.slider{
+  display:block;
+  width:100%;
+  position:relative;
+  box-shadow: 0px 5px 0px 0px rgba(255,255,255,0.35);
+
+}
+
+.logoOverlay img{
+  width: 39.5%;
+  position: absolute;
+  left: 3%;
+  top: 17%;
+  z-index:1000;
+}
+
+.slides{
+  width:100%;
+  height:356px;
+  box-sizing:border-box;
+  border: 10px solid;
+  overflow: hidden;
+  position:relative;
+
+  img{
+  zoom:85%;
+  position: absolute;
+  left: -90px;
+  top: -150px;
+  }
+
+  span img{
+    opacity:.3;
+    zoom:100%;
+  }
+}
+
+.sliderControls{
+  margin-top:1%;
+
+  .controls{
+    display:block;
+    text-align:center;
+  }
+
+  span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 16px 5px 24px 10px;
+    border-radius: 100%;
+    background: #ffffff;
+    transition:.2s all;
+
+    &:hover {
+        background: red;
+        box-shadow: inset 0px 0px 0px 5px white;
+        transform:scale(1.1);
+    }
+    &:first-child {
+        background: red;
+        box-shadow: inset 0px 0px 0px 5px white;
+    }
+  }
+
+}

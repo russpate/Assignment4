@@ -1,0 +1,23 @@
+.deckGrid{
+  margin-top:50px;
+  background:white;
+  min-height:300px;
+  box-sizing:border-box;
+  box-shadow: 0px 5px 0px 0px rgba(255,255,255,0.35);
+}
+
+.deckWrap{
+  width:9.6%;
+  height:inherit;
+  display:inline-block;
+  padding:20px;
+}
+
+.deck{
+  text-align:center;
+  transition:.2s all;
+
+  &:hover{
+    transform: translate3d(0px, -5%, 2em);
+  }
+}
