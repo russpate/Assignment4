@@ -410,7 +410,7 @@ span.link {
   position: absolute;
   left: 0;
   height: inherit;
-  padding: 35px; }
+  padding: 35px 35px 0px 35px; }
 
 .contactLeft h3 {
   margin-bottom: 15px;
@@ -473,7 +473,7 @@ span.link {
   .social ul {
     text-align: left; }
   .social .fa-facebook, .social .fa-rss, .social .fa-twitter, .social .fa-youtube {
-    padding: 10px 14.6px; }
+    padding: 8px 10.6px; }
   nav.headerNav div {
     width: 100%;
     margin-bottom: 10px;
@@ -491,18 +491,23 @@ span.link {
     margin: 0 0 10px 0; }
   .postContent p {
     display: none; }
-  .skaterGrid .left75 {
+  .skaterGrid .left75, .skaterGrid .right25 {
     width: 100%; }
-  .skaterGrid .right25 {
-    width: 100%; }
+  .skaterGrid h1 {
+    font-size: 1.5em; }
   .skater3 {
-    background-size: 130%; }
+    background-size: 170%; }
   .deckWrap {
     width: 32%; }
   .contactLeft, .contactRight {
     position: relative;
     width: 100%; }
   .contactWrap {
-    min-height: 550px; }
+    min-height: 700px; }
+  .contactWrap button {
+    width: 100%;
+    padding: 20px; }
   .contactLeft {
-    height: initial; } }
+    height: initial; }
+  .leftRow {
+    margin-bottom: 10px; } }

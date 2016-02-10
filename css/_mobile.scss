@@ -1,4 +1,5 @@
 @media (max-width: 650px) {
+
   .container{
     width:95%;
   }
@@ -8,7 +9,7 @@
   }
 
   .social .fa-facebook, .social .fa-rss, .social .fa-twitter, .social .fa-youtube {
-    padding: 10px 14.6px;
+    padding: 8px 10.6px;
   }
 
   nav.headerNav div{
@@ -19,10 +20,10 @@
 
   .slides{
     height:200px;
-  }
 
-  .slides img {
-    zoom: 50%;
+    img {
+        zoom: 50%;
+      }
   }
 
   .recentPosts{
@@ -42,16 +43,19 @@
     display:none;
   }
 
-  .skaterGrid .left75{
-    width:100%;
-  }
+  .skaterGrid {
 
-  .skaterGrid .right25{
-    width:100%;
+    .left75, .right25{
+      width:100%;
+    }
+
+    h1{
+      font-size:1.5em;
+    }
   }
 
   .skater3{
-    background-size:130%;
+    background-size:170%;
   }
 
   .deckWrap{
@@ -64,10 +68,19 @@
   }
 
   .contactWrap{
-    min-height:550px;
+    min-height:700px;
+
+    button{
+      width:100%;
+      padding:20px;
+    }
   }
-  
+
   .contactLeft{
     height:initial;
+  }
+
+  .leftRow{
+    margin-bottom:10px;
   }
 }
